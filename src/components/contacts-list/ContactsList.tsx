@@ -2,7 +2,7 @@ import {FC} from "react";
 import styles from "./ContactsList.module.scss";
 import type {Contacts} from "@/types";
 
-const contacts: Contacts = {
+export const contacts: Contacts = {
     email: "hovhanneskeshishyan@gmail.com",
     phone: "+37498088092",
     address: "Abovyan, Armenia",
